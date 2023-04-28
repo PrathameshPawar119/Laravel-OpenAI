@@ -13,7 +13,7 @@ class ApiController extends Controller
         $response = $client->post('https://api.openai.com/v1/chat/completions', [
             "headers" => [
                 "Content-Type" => "application/json",
-                "Authorization" => "Bearer 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"
+                "Authorization" => "Bearer ". env('OPENAI_API_KEY')
             ],
             "json" => [
                 "model"=> "gpt-3.5-turbo",
@@ -37,7 +37,7 @@ class ApiController extends Controller
         $response = $client->post('https://api.openai.com/v1/images/generations', [
             "headers" => [
                 "Content-Type" => "application/json",
-                "Authorization" => "Bearer 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"
+                "Authorization" => "Bearer " . env('OPENAI_API_KEY')
             ],
             "json" => [
                 "prompt" => "Indian Festival " . $request->festival,
