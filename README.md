@@ -133,3 +133,10 @@ index.blade.php
 @endsection
 ```
 Same layout for about section, so it can extend main.py layout when clicked
+
+![image](https://github.com/PrathameshPawar119/Laravel-OpenAI/assets/104665278/89cd2848-6d61-4dfb-a31d-fd7a91dcd621)
+
+![image](https://github.com/PrathameshPawar119/Laravel-OpenAI/assets/104665278/035cc53a-c737-446c-bb58-a3b4cbda6739)
+
+
+
